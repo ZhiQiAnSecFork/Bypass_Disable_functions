@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7.9
 MAINTAINER obolu@sc0de.com
 ADD src/php-7.3.8.tar.gz src/httpd-2.4.39.tar.gz src/apr-1.6.2.tar.gz src/apr-util-1.6.0.tar.gz /src/
 RUN yum -y install gcc make zlib-devel pcre-devel pcre \
